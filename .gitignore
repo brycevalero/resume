@@ -3,6 +3,15 @@
 system
 system/*
 
+user_guide
+user_guide/*
+
+composer.json
+contributing.md
+index.php
+license.txt
+readme.rst
+
 application/cache/*
 !application/cache/index.html
 !application/cache/.htaccess
