@@ -6,13 +6,12 @@
 		<div class="col-md-8 col-md-push-1">
 			<div class="row">
 				<div class="col-md-6 to-animate">
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed doloremque nesciunt nulla rerum. Ut ipsum tempora magni exercitationem officiis maxime in totam cupiditate doloribus repellat dolorem modi aperiam vitae quia sit asperiores saepe labore eligendi quisquam a eaque incidunt.</p>
+					<p>Hi, Im Bryce. Most likely you have either stumbled upon this site by accident, or I gave you the link to look at as a resume for my potential employment. Either way, This site is mainly just a collection of randomn things that I have worked on. Some things may not even make sense, but its nice to have a place to dump all my projects, finished or not.</p>
 
-					<p>Accusamus in odio nostrum provident assumenda magni asperiores quia dolorem sint nulla incidunt distinctio nesciunt maiores. Ex modi est soluta consequatur. Sequi cumque tempora blanditiis repellat quisquam at a dolorum molestias itaque eaque! Dolor doloremque expedita voluptas blanditiis modi.</p>
+					<p>Be sure to check back if you like the site, as I am going to be adding a ton of stuff in the near future. Basically, everything that I have done in the last 4 years will be here for everyone to see.</p>
 				</div>
 				<div class="col-md-6 to-animate">
-					<p>Right molestiae similique enim aliquam deleniti necessitatibus commodi ut blanditiis facere dolore in praesentium? Cupiditate tempore impedit nostrum eveniet deserunt natus dolor recusandae pariatur eligendi unde molestiae autem veniam voluptatem porro quaerat. </p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dolor pariatur quidem ab eos saepe suscipit ducimus vitae blanditiis vero qui quam ipsa possimus alias dolore culpa placeat nesciunt quas!</p>
+					<p>Here is a link to my coverletter and resume:</p>
 				</div>
 			</div>
 		</div>

@@ -11,11 +11,11 @@
 						<ul class="fh5co-contact">
 							<li class="fh5co-contact-address to-animate">
 								<i class="icon-home"></i>
-								5555 Love Paradise 56 New Clity 5655, Excel Tower United Kingdom
+								United States
 							</li>
-							<li class="to-animate"><i class="icon-phone"></i> (123) 465-6789</li>
-							<li class="to-animate"><i class="icon-email"></i>info@freehtml5.co</li>
-							<li class="to-animate"><i class="icon-globe"></i> <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></li>
+							<li class="to-animate"><i class="icon-phone"></i> (423) 570 5335</li>
+							<li class="to-animate"><i class="icon-email"></i>bryce.valero@gmail.com</li>
+							<li class="to-animate"><i class="icon-globe"></i> <a href="http://www.brycevalero.com" target="_blank">brycevalero.com</a></li>
 						</ul>
 					</div>
 

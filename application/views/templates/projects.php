@@ -1,7 +1,7 @@
 <div class="container" id="projects-animate">
 	<div class="row row-padded">
 		<div class="col-md-3">
-			<h2 class="fh5co-section-heading to-animate">Projects<span class="fh5co-border"></span></h2>
+			<h2 class="fh5co-section-heading to-animate"><?php echo anchor('projects', 'Projects'); ?><span class="fh5co-border"></span></h2>
 			<p class="to-animate">Libero velit fugit blanditiis tempora repellat iste inventore amet quaerat ex aliquid sint labore placeat esse.</p>
 		</div>
 		<div class="col-md-8 col-md-push-1">
