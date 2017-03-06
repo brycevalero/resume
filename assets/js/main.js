@@ -362,6 +362,44 @@
 		}
 	};
 	
+	// email submission to bryce
+	var blastEmail = function() {
+		$('#emailForm').submit(function(event){
+			// Stop form from submitting normally
+		  	event.preventDefault();
+		  	
+		  	var ok = $( '#emailForm' ).parsley( 'validate' );
+		  	
+		  	if(ok){
+			    
+			    $( "#emailStatus" ).hide(2000);
+			    
+				// Get some values from elements on the page:
+			    var	f_name = $( "#name" ).val(),
+			    	f_email = $( "#email" ).val(),
+			    	f_phone = $( "#phone" ).val(),
+			    	f_message = $( "#message" ).val();
+			    	
+			    var url = window.location.protocol + "//" + window.location.host + "/email/blast"
+				console.log(url);
+				
+			  	// Send the data using post
+			  	var posting = $.post( url, { name: f_name, email: f_email, phone: f_phone, message: f_message} );
+			 
+			  	// Put the results in a div
+			  	posting.done(function( data ) {
+			  		if(data == "1"){
+			  			$( "#emailSent" ).show(1000);
+			  		}
+			  		else{
+			  			$( "#emailError" ).show(1000);
+			  		}
+			  	});
+		  	} 
+			
+		})
+	};
+	
 
 	
 	$(function(){
@@ -384,6 +422,7 @@
 		servicesWayPoint();
 		contactWayPoint();
 		footerWayPoint();
+		blastEmail();
 
 	});
 

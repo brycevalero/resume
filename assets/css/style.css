@@ -7391,8 +7391,8 @@ p {
 }
 .fh5co-intro-wrap .fh5co-intro .fh5co-intro-lead {
   color: white;
-  line-height: 93px;
-  font-size: 72px;
+  line-height: 50px;
+  font-size: 40px;
   font-weight: 700 !important;
   font-family: "Montserrat", arial, sans-serif;
   text-transform: uppercase;
@@ -7750,4 +7750,16 @@ p {
   opacity: 0;
 }
 
+.self-pic {
+	width:200px;
+	float:right;	
+}
+
+.pdflogo {
+	width: 30px;
+}
+
+#emailSent, #emailError {
+    display: none;
+}
 /*# sourceMappingURL=style.css.map */

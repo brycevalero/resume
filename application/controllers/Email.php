@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Email extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -22,24 +22,26 @@ class Home extends CI_Controller {
 	public function __construct()
 	{
   		parent::__construct();
-		$this->load->helper('url');
-		$this->load->helper('form');
   	}
 	
-	public function index()
+	public function blast()
 	{
-		//$this->load->template('home/blank');
+		$this->load->library('email');
 		
-		$data['title'] = 'Welcome';
+		$name = $this->input->post('name');
+		$email = $this->input->post('email');
+		$phone = $this->input->post('phone');
+		$message = $this->input->post('message');
+		$subject = "resume.brycevalero.com ($name : $phone)";
+
+		$this->email->from($email, $name);
+		$this->email->to('bryce.valero@gmail.com');
 		
-		$this->load->view('templates/head', $data);
-		$this->load->view('templates/header_large', $data);
-		$this->load->view('templates/biography', $data);
-		$this->load->view('templates/stats', $data);
-		$this->load->view('templates/employment', $data);
-		$this->load->view('templates/testimony', $data);
-		$this->load->view('templates/projects', $data);
-		$this->load->view('templates/contact', $data);
-		$this->load->view('templates/footer', $data);
+		$this->email->subject($subject);
+		$this->email->message($message);
+		
+		$response = $this->email->send();
+		
+		echo $response;
 	}
 }

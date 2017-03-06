@@ -6,7 +6,7 @@
 				<div class="row">
 					<div class="col-md-9 col-md-offset-1 fh5co-testimony to-animate">
 						<blockquote>
-							<p class="text-center quote">&ldquo;Design is not just what it looks like and feels like. Design is how it <em>works</em>. &rdquo; <cite class="author">&mdash; Steve Jobs</cite></p>
+							<p class="text-center quote">&ldquo;It’s not uncommon for designers to confuse a beautiful looking product with one that works beautifully.&rdquo; <cite class="author">&mdash; BRADEN KOWITZ</cite></p>
 						</blockquote>
 					</div>
 				</div>

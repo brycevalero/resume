@@ -7,10 +7,10 @@
 		<div class="col-md-8 col-md-push-1">
 			<div class="row">
 				<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">
-					<a href="assets/images/work_1.jpg" class="image-popup">
+					<a href="/projects" class="image-popup">
 						<div class="fh5co-overlay-text">Project no. 1</div>
 						<div class="fh5co-overlay"></div>
-						<img src="assets/images/work_1.jpg" alt="Free HTML5 Template" class="img-responsive">
+						<div class="img-responsive">yup</div>
 					</a>
 				</div>
 				<div class="col-md-6 col-sm-6 col-xs-6 col-xxs-12 fh5co-project to-animate">

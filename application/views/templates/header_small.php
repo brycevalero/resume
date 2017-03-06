@@ -21,6 +21,6 @@
 	</div>
 </header>
 
-<main role="main" id="fh5co-main">
+<main role="main" id="fh5co-main"> <!-- closing tag in footer.php -->
 
 

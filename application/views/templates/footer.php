@@ -1,11 +1,11 @@
-		</main>
+		</main> <!-- opening tag in header_*.php file -->
 
 		<footer role="contentinfo" id="fh5co-footer">
 			<div class="container" id="footer-animate">
 				<div class="row row-padded">
 					<div class="col-md-8 col-md-push-4">
-						<p class="to-animate">&copy; 2015 Free Verge. All Rights Reserved. Designed: <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a></p>
-						<p class="to-animate">Images: <a href="http://unsplash.com" target="_blank">Unsplash</a> &amp; <a href="http://plmd.me" target="_blank">plmd.me</a></p>
+						<?php $date = date('Y'); ?>
+						<p class="to-animate">&copy; <?php echo $date; ?> www.brycevalero.com. All Rights Reserved.</p>
 					</div>
 				</div>
 			</div>
@@ -26,6 +26,8 @@
 		<script src="assets/js/jquery.countTo.js"></script>
 		<!-- Magnific Popup -->
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- Validate JS -->
+		<script src="assets/js/parsley.js"></script>
 		<!-- Main JS -->
 		<script src="assets/js/main.js"></script>
 

@@ -5,14 +5,16 @@
 			<div class="fh5co-intro">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center">
-						<h1 class="fh5co-intro-lead animate-1 to-animate">Verge</h1>
-						<h2 class="fh5co-intro-sub animate-2 to-animate">Hi! I&acute;m Bryce Valero, a Software Engineer currently working at <a href="http://freehtml5.co" target="_blank">Lockhead Martin</a></h2>
+						<img class="self-pic" src="assets/images/me-round-bordered.png"/>
+						<div>
+							<h1 class="fh5co-intro-lead animate-1 to-animate">Bryce Valero</h1>
+							<h2 class="fh5co-intro-sub animate-2 to-animate">Software Engineer<br/>Web Developer<br/>Tester</h2>
+						</div>
 						<p class="fh5co-social text-center" id="fh5co-intro-social">
-							<a href="#" class="to-animate"><i class="icon-facebook-with-circle"></i></a>
-							<a href="#" class="to-animate"><i class="icon-twitter-with-circle"></i></a>
-							<a href="#" class="to-animate"><i class="icon-dribbble-with-circle"></i></a>
-							<a href="#" class="to-animate"><i class="icon-google-with-circle"></i></a>
-							<a href="#" class="to-animate"><i class="icon-instagram-with-circle"></i></a>
+							<a href="http://www.brycevalero.com" class="to-animate"><i class="icon-home"></i></a>
+							<a href="https://www.linkedin.com/in/brycevalero/" class="to-animate"><i class="icon-linkedin-with-circle"></i></a>
+							<a href="https://www.facebook.com/bryce.valero" class="to-animate"><i class="icon-facebook-with-circle"></i></a>
+							<a href="https://github.com/brycevalero" class="to-animate"><i class="icon-github-with-circle"></i></a>						
 						</p>
 					</div>
 				</div>
@@ -21,4 +23,4 @@
 	</div>
 </header>
 
-<main role="main" id="fh5co-main">
+<main role="main" id="fh5co-main"> <!-- closing tag in footer.php -->
