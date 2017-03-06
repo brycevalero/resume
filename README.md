@@ -1,6 +1,6 @@
 ## My personal Resume site
 
-This is my personal resume website built on Codeigniter.  I also used a free HTML5 template from freehtml5.com, which I modified to be used with Codeigniter.  
+This is my personal resume website built on Codeigniter.  A responsive theme was generated to help guide an employer through my qualifications.  
 
 ## Motivation
 
@@ -8,4 +8,4 @@ I built this in order to showcase some of the work I have worked on.  My old web
 
 ## Installation
 
-Install codeigniter and drop all the files into the root of the installation.
+This website is personal to me, so I doubt anyone would want to install this.
